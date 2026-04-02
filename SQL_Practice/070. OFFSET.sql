@@ -1,0 +1,24 @@
+
+
+SELECT TOP 10 * FROM DimProduct
+
+SELECT * FROM DimProduct
+ORDER BY ProductKey
+OFFSET 10 ROWS
+
+SELECT * FROM DimProduct
+ORDER BY ProductKey
+OFFSET 10 ROWS
+FETCH FIRST 10 ROWS ONLY
+
+SELECT * FROM DimProduct
+ORDER BY ProductKey
+OFFSET 10 ROWS
+FETCH NEXT 10 ROWS ONLY
+
+
+'''
+
+OFFSET = Skip rows
+FETCH = Limit rows
+'''
