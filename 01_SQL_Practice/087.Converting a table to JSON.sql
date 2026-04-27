@@ -1,0 +1,51 @@
+
+--DROP TABLE IF EXISTS EmployeesNew
+
+CREATE TABLE EmployeesNew(
+	EmpId int primary key identity(1,1),
+	EmpName varchar(100),	
+	City varchar(30),
+	Salary money,
+	DOJ datetime
+)
+
+
+
+INSERT INTO EmployeesNew(EmpName,CITY,Salary,DOJ) VALUES
+('SAM','NYC',45000,NULL),
+('AMAN','DELHI',30000,'2022-01-04'),
+('JAY','CHENNAI',40000,'2023-05-12'),
+('AMANDA','SYDNEY',60000,NULL)
+
+SELECT * FROM EmployeesNew
+FOR JSON PATH
+--json path is used to convert the result set into JSON format. It generates a JSON array of objects, where each object represents a row from the result set. The column names become the keys in the JSON objects, and the corresponding values are the values in the JSON objects.
+SELECT * FROM EmployeesNew
+FOR JSON PATH,Root('Employees')
+
+SELECT * FROM EmployeesNew
+FOR JSON PATH,INCLUDE_NULL_VALUES
+
+SELECT * FROM EmployeesNew
+FOR JSON PATH,Root('Employees'),INCLUDE_NULL_VALUES
+
+SELECT * FROM EmployeesNew
+FOR JSON PATH,WITHOUT_ARRAY_WRAPPER
+
+SELECT * FROM EmployeesNew
+FOR JSON PATH,WITHOUT_ARRAY_WRAPPER,INCLUDE_NULL_VALUES
+
+SELECT EMPID, EMPNAME, DOJ FROM EmployeesNew
+FOR JSON PATH
+
+SELECT 1 as EMPID, 'John' AS EMPNAME
+FOR JSON PATH
+
+
+SELECT * FROM EmployeesNew
+FOR JSON AUTO
+
+SELECT 1 as EMPID, 'John' AS EMPNAME
+FOR JSON AUTO
+--JSON PATH VS JSON AUTO
+--JSON PATH gives you more control over the structure of the JSON output, while JSON AUTO automatically generates a JSON structure based on the column names and values in the result set. JSON PATH is more flexible and allows for complex JSON structures, while JSON AUTO is simpler and may be sufficient for basic use cases.
