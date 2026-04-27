@@ -1,0 +1,35 @@
+
+
+
+df = spark.read.parquet("/FileStore/tables/data.parquet")
+
+
+
+df = (spark.read
+      .format("parquet")
+      .load("/FileStore/tables/data.parquet"))
+
+
+
+df.write.parquet("/FileStore/tables/output_parquet")
+
+
+df.write \
+  .format("parquet") \
+  .mode("overwrite") \
+  .save("/FileStore/tables/output_parquet")
+
+'''
+.mode("overwrite")   # replace data
+.mode("append")      # add data
+.mode("ignore")      # skip if exists
+.mode("error")       # default (fail)
+'''
+
+
+df.write \
+  .partitionBy("country") \
+  .mode("overwrite") \
+  .parquet("/FileStore/tables/output_parquet")
+
+df = spark.read.parquet("/FileStore/tables/output_parquet")

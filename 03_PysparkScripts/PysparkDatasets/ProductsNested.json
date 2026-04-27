@@ -1,0 +1,154 @@
+[
+  {
+    "ProductKey": 310,
+    "Detail": {
+      "ProductName": "Road-150 Red, 62",
+      "Price": 3578.27,
+      "SalesAmount": 3578.27
+    }
+  },
+  {
+    "ProductKey": 346,
+    "Detail": {
+      "ProductName": "Mountain-100 Silver, 44",
+      "Price": 3399.99,
+      "SalesAmount": 3399.99
+    }
+  },
+  {
+    "ProductKey": 346,
+    "Detail": {
+      "ProductName": "Mountain-100 Silver, 44",
+      "Price": 3399.99,
+      "SalesAmount": 3399.99
+    }
+  },
+  {
+    "ProductKey": 336,
+    "Detail": {
+      "ProductName": "Road-650 Black, 62",
+      "Price": 699.0982,
+      "SalesAmount": 699.0982
+    }
+  },
+  {
+    "ProductKey": 346,
+    "Detail": {
+      "ProductName": "Mountain-100 Silver, 44",
+      "Price": 3399.99,
+      "SalesAmount": 3399.99
+    }
+  },
+  {
+    "ProductKey": 311,
+    "Detail": {
+      "ProductName": "Road-150 Red, 44",
+      "Price": 3578.27,
+      "SalesAmount": 3578.27
+    }
+  },
+  {
+    "ProductKey": 310,
+    "Detail": {
+      "ProductName": "Road-150 Red, 62",
+      "Price": 3578.27,
+      "SalesAmount": 3578.27
+    }
+  },
+  {
+    "ProductKey": 351,
+    "Detail": {
+      "ProductName": "Mountain-100 Black, 48",
+      "Price": 3374.99,
+      "SalesAmount": 3374.99
+    }
+  },
+  {
+    "ProductKey": 344,
+    "Detail": {
+      "ProductName": "Mountain-100 Silver, 38",
+      "Price": 3399.99,
+      "SalesAmount": 3399.99
+    }
+  },
+  {
+    "ProductKey": 312,
+    "Detail": {
+      "ProductName": "Road-150 Red, 48",
+      "Price": 3578.27,
+      "SalesAmount": 3578.27
+    }
+  },
+  {
+    "ProductKey": 312,
+    "Detail": {
+      "ProductName": "Road-150 Red, 48",
+      "Price": 3578.27,
+      "SalesAmount": 3578.27
+    }
+  },
+  {
+    "ProductKey": 330,
+    "Detail": {
+      "ProductName": "Road-650 Red, 52",
+      "Price": 699.0982,
+      "SalesAmount": 699.0982
+    }
+  },
+  {
+    "ProductKey": 313,
+    "Detail": {
+      "ProductName": "Road-150 Red, 52",
+      "Price": 3578.27,
+      "SalesAmount": 3578.27
+    }
+  },
+  {
+    "ProductKey": 314,
+    "Detail": {
+      "ProductName": "Road-150 Red, 56",
+      "Price": 3578.27,
+      "SalesAmount": 3578.27
+    }
+  },
+  {
+    "ProductKey": 314,
+    "Detail": {
+      "ProductName": "Road-150 Red, 56",
+      "Price": 3578.27,
+      "SalesAmount": 3578.27
+    }
+  },
+  {
+    "ProductKey": 311,
+    "Detail": {
+      "ProductName": "Road-150 Red, 44",
+      "Price": 3578.27,
+      "SalesAmount": 3578.27
+    }
+  },
+  {
+    "ProductKey": 310,
+    "Detail": {
+      "ProductName": "Road-150 Red, 62",
+      "Price": 3578.27,
+      "SalesAmount": 3578.27
+    }
+  },
+  {
+    "ProductKey": 311,
+    "Detail": {
+      "ProductName": "Road-150 Red, 44",
+      "Price": 3578.27,
+      "SalesAmount": 3578.27
+    }
+  },
+  {
+    "ProductKey": 314,
+    "Detail": {
+      "ProductName": "Road-150 Red, 56",
+      "Price": 3578.27,
+      "SalesAmount": 3578.27
+    }
+  }
+]
